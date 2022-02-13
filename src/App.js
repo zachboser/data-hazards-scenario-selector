@@ -37,7 +37,7 @@ function Picker(props) {
     "border": 0,
     "background-color": buttonColor,
     "width": "200px",
-    "color": "#343a40",
+    "color": "#000000",
     "border-radius": "30px",
     "font-size": "30px",
     "font-family": "Segoe UI"

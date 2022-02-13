@@ -6,7 +6,7 @@ const scenarios = {
             "you applied algorithm x in a healthcare setting?",
             "you made this data public?",
             "you presented your presented your data in this way?",
-            "it was used globally?",
+            "your algorithm was used globally?",
             "you applied algorithm x in a social setting?",
             "you applied algorithm x in a personal setting?"
         ]
