@@ -11,12 +11,12 @@ import { useState, useEffect } from 'react';
 function HandleButtonPress(props) {
   if (props.buttonText === "Start") {
     props.setButtonText("Stop")
-    props.setButtonColor("#FF4136")
+    props.setButtonColor("#DC3545")
     props.setSelecting(true)
   }
   if (props.buttonText === "Stop") {
     props.setButtonText("Start")
-    props.setButtonColor("#0557FF")
+    props.setButtonColor("#FFC107")
     props.setSelecting(false)
   }
 }
@@ -26,7 +26,7 @@ function Picker(props) {
   const [selecting, setSelecting] = useState(false)
   const [randomText, setRandomText] = useState("?")
 
-  const [buttonColor, setButtonColor] = useState("#0557FF")
+  const [buttonColor, setButtonColor] = useState("#FFC107")
   const [buttonText, setButtonText] = useState("Start")
 
   const [index, setIndex] = useState(0)
@@ -37,9 +37,10 @@ function Picker(props) {
     "border": 0,
     "background-color": buttonColor,
     "width": "200px",
-    "color": "#D8D8D8",
+    "color": "#343a40",
     "border-radius": "30px",
-    "font-size": "30px"
+    "font-size": "30px",
+    "font-family": "Segoe UI"
   }
 
   // Running the timer
